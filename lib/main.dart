@@ -44,8 +44,17 @@ class _MyHomePageState extends State<MyHomePage> {
         body: Container(
           color: Colors.white54,
           child: Center(
-
-            child: Text('Welcome to Data Design World!'),
+            child: Text('Welcome to Data Design World!',
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.red,
+              backgroundColor: Colors.black12,
+              letterSpacing: 2,
+              wordSpacing: 5,
+              fontWeight: FontWeight.w900,
+              fontStyle: FontStyle.italic,
+              fontFamily: 'Creep'
+            ),),
 
           ),
         ),
